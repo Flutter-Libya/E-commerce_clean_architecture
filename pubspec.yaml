@@ -7,14 +7,14 @@ environment:
 
 dependencies: 
   cupertino_icons:
-  get: # for state management and context less stuff
-  flutter_screenutil: ^5.8.4 # make app responsive
-  shared_preferences: ^2.2.0 # shared preferences persistence key value store
-  flutter_launcher_icons: # change app icon
-  change_app_package_name: # change package name
-  rename_app: # rename app
-  flutter_svg: # for svg icons
-  flutter_animate: # for animation
+  flutter_screenutil: ^5.8.4 
+  shared_preferences: ^2.2.0 
+  flutter_launcher_icons: 
+  change_app_package_name: 
+  rename_app: 
+  flutter_svg: 
+  flutter_animate: 
+  get: 
 
   flutter: 
     sdk: flutter
@@ -32,10 +32,9 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/app_icon.png"
   adaptive_icon_background: "#FFFFFF"
   adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
-
+  image_path: "assets/images/app_icon.png"
 flutter: 
   uses-material-design: true
 

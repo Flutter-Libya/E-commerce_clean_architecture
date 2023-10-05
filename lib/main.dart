@@ -16,8 +16,8 @@ Future<void> main() async {
       designSize: const Size(375, 812),
       minTextAdapt: true,
       splitScreenMode: true,
-      useInheritedMediaQuery: true,
       rebuildFactor: (old, data) => true,
+      useInheritedMediaQuery: true,
       builder: (context, widget) {
         return GetMaterialApp(
        

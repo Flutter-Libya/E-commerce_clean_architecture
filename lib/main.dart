@@ -23,8 +23,9 @@ Future<void> main() async {
       rebuildFactor: (old, data) => true,
       builder: (context, widget) {
         return GetMaterialApp(
-          title: "E-commerce App",
+       
           useInheritedMediaQuery: true,
+             title: "E-commerce App",
           debugShowCheckedModeBanner: false,
           builder: (context,widget) {
             bool themeIsLight = MySharedPref.getThemeIsLight();
@@ -36,8 +37,8 @@ Future<void> main() async {
               ),
             );
           },
-          initialRoute: AppPages.INITIAL, // first screen to show when app is running
-          getPages: AppPages.routes, // app screens
+          initialRoute: AppPages.INITIAL,
+          getPages: AppPages.routes,
         );
       },
     ),
